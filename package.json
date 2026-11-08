@@ -1,0 +1,31 @@
+{
+  "name": "scene-forge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SceneForge — turn a brief into a rendered short video with Remotion.",
+  "scripts": {
+    "dev": "next dev -p 4310",
+    "build": "next build",
+    "start": "next start -p 4310",
+    "typecheck": "tsc --noEmit",
+    "studio": "remotion studio src/remotion/index.ts",
+    "render": "remotion render src/remotion/index.ts ShortVideo out/scene-forge.mp4"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/google-fonts": "4.0.540",
+    "@remotion/player": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "next": "15.5.29",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.3"
+  }
+}

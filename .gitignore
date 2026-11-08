@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.renders
+public/uploads/*
+!public/uploads/.gitkeep
+public/renders/*
+!public/renders/.gitkeep
+.env.local
+*.log
+*.tsbuildinfo
